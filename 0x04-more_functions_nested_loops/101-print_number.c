@@ -4,20 +4,22 @@
 /**
  * print_number - Prints a number
  * @n: The number to print
+ * Return: void
  */
 
 void print_number(int n)
 {
-	unsigned int num = n;
+	unsigned int x;
 
-	if (n < 0)
+	x = n
+	if (n < 0)	
 	{
-		putchar('-');
-		num = -num;
+		putchar(45);
+		x = -n;
 	}
-	if (num > 9)
+	if (x / 10)
 	{
-		print_number(num / 10);
+		print_number(x / 10);
 	}
-	putchar(num % 10 + '0');
+	putchar(x % 10 + '0');
 }
