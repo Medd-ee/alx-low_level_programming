@@ -1,16 +1,17 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Write a program that prints its name, followed by a new line
- * @argc: this is the argument count
- * @argv: this is the argument vector
+ * main - this program prints its name
  *
- * Return: This return to 0
+ * @argc: number of arguments
+ * @argv: string of arguments
+ *
+ * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc _attribute_((unused)), char *argv[])
 {
-	printf("%s\n", argv[0];
-	(void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
