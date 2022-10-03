@@ -2,7 +2,7 @@
 
 /**
  * _strdup - returns apointer to a newly allocated
- * space in memory, which comtains a copy of the 
+ * space in memory, which comtains a copy of the
  * string given as a parameter.
  * @str: string to be copied
  *
