@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _print -- moves a string one place to the lrft and prints the string
+ * _print - moves a string one place to the left and prints the string
  * @str: string to move
  * @l: size of string
  *
@@ -71,7 +71,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
  * Return: 0 if digits, 1 if not
  */
 
-int check_for _digits(char **av)
+int check_for_digits(char **av)
 {
 	int i, j;
 
@@ -88,8 +88,8 @@ int check_for _digits(char **av)
 
 /**
  * init - initializes a string
- * @str: string to initalize
- * @l: lenght of string
+ * @str: sting to initialize
+ * @l: length of strinf
  *
  * Return: void
  */
@@ -100,7 +100,7 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0'
+	str[i] = '\0';
 }
 
 /**
@@ -116,7 +116,7 @@ int main(int argc, char *argv[])
 	int l1, l2, ln, ti, i;
 	char *a;
 	char *t;
-	char e[] = "Error\n"
+	char e[] = "Error\n";
 
 	if (argc != 3 || check_for_digits(argv))
 	{
