@@ -59,7 +59,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		return (NULL);
 	}
-	
+
 	new_name = _copy(name);
 	if (new_name == NULL)
 	{
